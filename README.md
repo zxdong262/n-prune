@@ -1,6 +1,6 @@
 # n-prune
 
-[![Build Status](https://travis-ci.org/zxdong262/n-prune.svg?branch=master)](https://travis-ci.org/zxdong262/n-prune)
+[![Build Status](https://travis-ci.org/zxdong262/n-prune.svg?branch=develop)](https://travis-ci.org/zxdong262/n-prune)
 
 > Easily pruning unneeded files from `node_modules` or any folder.
 
