@@ -1,6 +1,6 @@
 {
   "name": "n-prune",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "easily pruning unneeded files",
   "main": "index.js",
   "scripts": {
