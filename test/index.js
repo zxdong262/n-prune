@@ -38,6 +38,7 @@ function prepare(path) {
 }
 
 describe(name, function() {
+  this.timeout = 5000
   it('default option', function(done) {
     let p = basePath + '/temp/p1'
     exec(`rm -rf ${p}`)
