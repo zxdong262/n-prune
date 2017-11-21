@@ -38,8 +38,8 @@ function prepare(path) {
 }
 
 describe(name, function() {
-  this.timeout = 5000
   it('default option', function(done) {
+    this.timeout(5000)
     let p = basePath + '/temp/p1'
     exec(`rm -rf ${p}`)
     let p1 = resolve(p, 'node_modules')
@@ -58,6 +58,7 @@ describe(name, function() {
   })
 
   it('specific folder and default options', function(done) {
+    this.timeout(5000)
     let p = basePath + '/temp/p2'
     exec(`rm -rf ${p}`)
     let p1 = resolve(p, 'node_modules')
@@ -75,6 +76,7 @@ describe(name, function() {
   })
 
   it('specific folder and specific options', function(done) {
+    this.timeout(5000)
     let p = basePath + '/temp/p3'
     exec(`rm -rf ${p}`)
     let p1 = resolve(p, 'node_modules')
