@@ -44,7 +44,7 @@ n-prune
 n-prune /xx/node_modules -c /xx/prune.json
 ```
 
-## customnize
+## custom config
 create json config file format like this:
 
 ```js
